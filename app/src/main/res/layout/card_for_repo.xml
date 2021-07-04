@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+                name="data"
+                type="com.android.designpattern.model.repoItem.Item"/>
+        <variable
+                name="itemClickListener"
+                type="com.android.designpattern.ui.home.CustomClickListener" />
+    </data>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/headingTV"
+                android:text="@{data.full_name}"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/x_10"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:maxLines="2"
+                android:id="@+id/detailTv"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="@dimen/margin_5"
+                android:text="@{data.description}"
+                android:layout_marginLeft="@dimen/x_10"
+                android:layout_marginRight="@dimen/x_10"
+                android:layout_below="@+id/headingTV"
+                android:layout_height="wrap_content"/>
+
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/detailTv"
+                android:layout_toLeftOf="@+id/starLay"
+                android:layout_margin="@dimen/x_10"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true">
+            <ImageView
+                    android:layout_width="25dp"
+                    android:id="@+id/img"
+                    android:background="@drawable/not_found"
+                    android:layout_height="25dp"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_toRightOf="@+id/img"
+                    android:text="@{data.full_name}"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:layout_centerVertical="true"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_below="@id/detailTv"
+                android:id="@+id/starLay"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/x_10"
+                android:layout_height="wrap_content">
+            <ImageView
+                    android:layout_width="25dp"
+                    android:id="@+id/img_star"
+                    android:background="@drawable/star"
+                    android:layout_height="25dp"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_toRightOf="@+id/img_star"
+                    android:id="@+id/headingStarTV"
+                    android:text="5.1k"
+                    android:textColor="@color/black"
+                    android:layout_centerVertical="true"
+                    android:textSize="14sp"
+                    android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:background="@color/dark_grey"
+                android:layout_below="@id/starLay"
+                android:layout_height="0.2dp"/>
+    </RelativeLayout>
+
+</layout>

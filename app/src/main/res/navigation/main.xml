@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        app:startDestination="@id/home2">
+
+
+    <fragment
+            android:id="@+id/home2"
+            android:name="com.android.designpattern.ui.home.Home"
+            android:label="fragment_home"
+            tools:layout="@layout/fragment_home" >
+        <action
+                android:id="@+id/action_home2_to_contacts"
+                app:destination="@id/contacts" />
+        <action
+                android:id="@+id/action_home2_to_productFragment"
+                app:destination="@id/productFragment" />
+        <action
+                android:id="@+id/action_home2_to_toSellProductsFragment"
+                app:destination="@id/toSellProductsFragment" />
+    </fragment>
+    <fragment
+            android:id="@+id/contacts"
+            android:name="com.android.designpattern.ui.home.RepoHome"
+            android:label="fragment_contacts"
+            tools:layout="@layout/fragment_repo" >
+        <action
+                android:id="@+id/action_contacts_to_home2"
+                app:destination="@id/home2" />
+    </fragment>
+    <fragment
+            android:id="@+id/productFragment"
+            android:name="com.android.designpattern.ui.product.ProductFragment"
+            android:label="fragment_product"
+            tools:layout="@layout/fragment_product" >
+        <action
+                android:id="@+id/action_productFragment_to_home2"
+                app:destination="@id/home2" />
+        <action
+                android:id="@+id/action_productFragment_to_home22"
+                app:destination="@id/home2" />
+    </fragment>
+    <fragment
+            android:id="@+id/toSellProductsFragment"
+            android:name="com.android.designpattern.ui.ToSell.ToSellProductsFragment"
+            android:label="fragment_to_sell_products"
+            tools:layout="@layout/fragment_to_sell_products" >
+        <action
+                android:id="@+id/action_toSellProductsFragment_to_home2"
+                app:destination="@id/home2" />
+        <action
+                android:id="@+id/action_toSellProductsFragment_to_home22"
+                app:destination="@id/home2" />
+    </fragment>
+</navigation>

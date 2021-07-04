@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources tools:override = "true" xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#E17137</color>
+    <color name="colorPrimaryDark">#E17137</color>
+    <color name="colorAccent">#E17137</color>
+    <color name="appColorPrimary">#395170</color>
+    <color name="appColorPrimaryDark">#395170</color>
+    <color name="appColorAccent">@android:color/black</color>
+    <color name="app_btn_color">#424143</color>
+    <color name="white">@android:color/white</color>
+    <color name="app_transparent">#26FFFFFF</color>
+    <color name="green_color">#016301</color>
+    <color name="red_color">#f74c4c</color>
+    <color name="yellow_color">#CDFF9A06</color>
+    <color name="yeloow_indicator_light">#63FF9A06</color>
+    <color name="yellow_color_light">#23FF9A06</color>
+    <color name="yellow_color_dark">#E17137</color>
+    <color name="yellow_gradient_Start">#fbb160</color>
+    <color name="yellow_color_bright">#f7941d</color>
+    <color name="point_text_color">#b3b3d1</color>
+    <color name="light_green">#46DF47</color>
+    <color name="green">#f7fdf6</color>
+    <color name="text_color">#f7941d</color>
+    <color name="text_color_gradient_start">#fab96c</color>
+    <color name="text_color_gradient_end">#f7941d</color>
+    <color name="lightpink">#FFEEDA</color>
+    <color name="orange">#F7941D</color>
+    <color name="transparent">#e1e1e1e1</color>
+    <color name="background">@android:color/darker_gray</color>
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="grey">#7E7475</color>
+    <color name="app_bg">#EDF0F5</color>
+    <color name="transWhite">#33FFFFFF</color>
+    <color name="blueGray200">#E17137</color>
+    <color name="blueGray300">#D3D6DA</color>
+    <color name="black">@android:color/black</color>
+    <color name="dark_grey">#434343</color>
+
+
+
+    <color name="textColorPrimary">@android:color/black</color>
+    <color name="textColorSecondary">@android:color/darker_gray</color>
+    <color name="textColorGreen">#016301</color>
+    <color name="textColorRed">#EF5350</color>
+</resources>

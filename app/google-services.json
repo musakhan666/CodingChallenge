@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "421025199767",
+    "firebase_url": "https://zerocarbon-62c7f.firebaseio.com",
+    "project_id": "zerocarbon-62c7f",
+    "storage_bucket": "zerocarbon-62c7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421025199767:android:940132f20bca7eda911bd2",
+        "android_client_info": {
+          "package_name": "com.android.designpattern"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421025199767-8qqpslie6t8f7jvl1e3c65p6nqo4dibg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.DesignPattern",
+            "certificate_hash": "f4dffa41197a6bab8cc5437a7b64399e5bd6f8a5"
+          }
+        },
+        {
+          "client_id": "421025199767-7qin6ob44b2oenpd1484rre18c72kuld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoPWuw0hzmFl5VGx7bcDeNq40X9keHrnw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421025199767-7qin6ob44b2oenpd1484rre18c72kuld.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

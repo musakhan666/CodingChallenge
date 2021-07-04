@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.home.Home">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/padding_10"
+            android:layout_height="@dimen/x_50_d"
+            android:textSize="14sp"
+            android:id="@+id/fetchBtn"
+            android:layout_centerInParent="true"
+            android:text="Fetch Data" />
+
+
+</RelativeLayout>
